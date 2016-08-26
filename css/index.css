@@ -1,0 +1,48 @@
+* {
+	margin:0px;
+	padding: 0px; 
+}
+
+
+#header {
+	height: 140px;
+	background: #f90;
+}
+
+#wrapper {
+	overflow: hidden;
+}
+
+#result {
+	float: left;
+	height: 1000px;
+	width: 840px;
+	background: #f60;
+}
+
+#weather {
+	height: 469px;
+	width: 538px;
+	background: #f30;
+}
+
+#side {
+	margin-left: 810px;
+	background: #f00;
+	min-height: 1000px;
+}
+
+#footer {
+	border-top: 1px solid #ebebeb;
+    background: #f5f6f5;
+    height: 42px;
+    line-height: 42px;
+    font-size: 12px;
+    padding-left: 121px;
+}
+
+#footer a {
+	color: #777;
+    padding: 0 15px;
+    text-decoration: none;
+}
