@@ -5,6 +5,8 @@ document.addEventListener( "DOMContentLoaded" , function () {
 
     // 额外的js请通过src.push将其src添加到其中
     src.push('js/index.js');
+    src.push('js/zbb.js');
+
 
     for( var i = 0; i < src.length; i++ ) {
         script = document.createElement('script');
